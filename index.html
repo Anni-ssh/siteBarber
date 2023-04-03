@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400;1,500;1,700&family=GFS+Didot&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/main.min.js"></script>
+    <title>BARBIER ÉLÉGANT</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="container">
+                <nav class="menu">
+                    <div class="burger">
+                        <img class="burger-logo" src="img/icon/MainLogo.svg" alt="logo">
+                        <button class="burger-btn"><img class="burger-icon" src="img/icon/burger_icon.png"
+                                alt="burger-menu"></button>
+                    </div>
+                    <ul class="menu__inner">
+                        <li class="menu-item "><a href="#main__review" class="menu-item-link">à propos de nous</a></li>
+                        <li class="menu-item"><a href="#tariff__title" class="menu-item-link">services</a></li>
+                        <a href="#header" class="logo"><img class="logo-img" src="img/icon/MainLogo.svg" width="100%"
+                                height="100%" alt="logo"></a>
+                        <li class="menu-item"><a href="#gallery__title" class="menu-item-link">Galerie</a></li>
+                        <li class="menu-item"><a href="#history__title" class="menu-item-link">histoire</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="main__review" id="main__review">
+                <div class="main__review-inner">
+                    <img class="review-img" src="img/photo/BarberSignboard.png" alt="barbershop">
+                    <div class="review__content">
+                        <h1 class="review__content-title">Barbier Élégant</h1>
+                        <p class="review__content-text">Un barbershop est un endroit où l'on peut se faire couper et
+                            coiffer les cheveux avec soin et
+                            style.Ici, vous pourrez trouver des professionnels qui sauront vous offrir des services de
+                            qualité à un prix raisonnable. De plus, vous pourrez profiter d'un environnement relaxant et
+                            détendu pour vous sentir à l'aise et apprécier votre moment. Alors n'attendez plus et
+                            rendez-vous chez le barbier pour obtenir votre coupe parfaite!</p>
+                        <p class="review__content-text">BARBIER ÉLÉGANT est heureux de vous accueillir tous les jours
+                            <span class="review__content-time">de 9 heures à 21 heures</span>
+                        </p>
+                        <div class="registr">
+                            <button type="button" class="registr-btn"><span>RÉSERVER</span></button>
+                            <a class="phone" href="tel:33612345678">+ 33 6 12 34 56 78</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__box">
+                <div class="main__box-inner">
+                    <img class="main__box-inner-item" src="img/photo/hall.png" alt="hall">
+                    <img class="main__box-inner-item" src="img/photo/man.png" alt="man">
+                    <img class="main__box-inner-item" src="img/photo/cream.jpg" alt="cream">
+                </div>
+            </section>
+
+            <section class="main__price shadow">
+                <h1 class="tariff__title title" id="tariff__title">services</h1>
+                <div class="main__price-inner">
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Coupe de cheveux:
+                        </h1>
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Coupe de cheveux pour homme - 25€</li>
+                            <li class="main__price-text-item">Coupe de cheveux pour enfant - 15€</li>
+                            <li class="main__price-text-item">Coupe de cheveux pour femme - 35€</li>
+                        </ul>
+                    </div>
+
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Soins du corps:
+                        </h1>
+
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Épilation des sourcils - 10€</li>
+                            <li class="main__price-text-item">Épilation du dos et de la poitrine - 30€</li>
+                            <li class="main__price-text-item">Manucure - 25€</li>
+                            <li class="main__price-text-item">Pédicure - 25€</li>
+                            <li class="main__price-text-item">Massage du cuir chevelu - 30€</li>
+                        </ul>
+                    </div>
+
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Soins de barbe et moustache:
+                        </h1>
+
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Taille de barbe - 20€</li>
+                            <li class="main__price-text-item">Taille de moustache - 10€</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Rasage:
+                        </h1>
+
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Rasage à l'ancienne - 30€</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Coloration:
+                        </h1>
+
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Coloration des cheveux pour homme - 30€</li>
+                        </ul>
+                    </div>
+
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Soins du visage:
+                        </h1>
+
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Soin de visage - 30€</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="main__price-box">
+                        <h1 class="main__price-title">
+                            Shampoing et coiffage:
+                        </h1>
+                        <ul class="main__price-text">
+                            <li class="main__price-text-item">Shampoing et coiffage - 15€</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery shadow">
+                <h1 class="gallery__title title" id="gallery__title">GALERIE</h1>
+                <p class="gallery__text text-back">La beauté est dans les yeux de celui qui regarde</p>
+
+                <div class="gallery-slader">
+                    <img src="img/gallery/1.png" alt="Image1" class="gallery-item">
+                    <img src="img/gallery/11.png" alt="Image2" class="gallery-item">
+                    <img src="img/gallery/3.png" alt="Image4" class="gallery-item">
+                    <img src="img/gallery/5.png" alt="Image5" class="gallery-item">
+                    <img src="img/gallery/6.png" alt="Image6" class="gallery-item">
+                    <img src="img/gallery/13.png" alt="Image7" class="gallery-item">
+                    <img src="img/gallery/7.png" alt="Image8" class="gallery-item">
+                    <img src="img/gallery/8.png" alt="Image9" class="gallery-item">
+                    <img src="img/gallery/9.png" alt="Image10" class="gallery-item">
+                    <img src="img/gallery/10.png" alt="Image11" class="gallery-item">
+                    <img src="img/gallery/4.png" alt="Image12" class="gallery-item">
+                    <img src="img/gallery/12.png" alt="Image13" class="gallery-item">
+                </div>
+            </section>
+
+            <section class="history shadow">
+                <div class="history__inner-titile">
+                    <h1 class="history__title title" id="history__title">histoire</h1>
+                    <p class="history__title-text text-back">Nous vous réjouissons depuis déjà un demi-siècle</p>
+                </div>
+                <div class="history__inner">
+                    <div class="history__inner-content">
+                        <div class="history__item">
+                            <img src="img/photo/HistoryPhoto1.png" alt="Image1" class="history-img">
+                            <p class="history-text text-back">
+                                ... Il y a maintenant un demi-siècle que notre barbershop offre des services de qualité
+                                exceptionnelle à nos clients. Notre équipe de coiffeurs expérimentés est passionnée par
+                                son
+                                métier et se tient toujours au courant des dernières tendances et techniques de coupe de
+                                cheveux.
+                            </p>
+
+                        </div>
+
+                        <div class="history__item">
+                            <img src="img/photo/HistoryPhoto2.png" alt="Image2" class="history-img">
+
+                            <p class="history-text text-back">
+                                Nous prenons le temps d'écouter attentivement nos clients pour comprendre leurs besoins
+                                et
+                                leurs préférences en matière de coiffure. Nous leur offrons ensuite des conseils
+                                personnalisés pour les aider à trouver la coupe de cheveux qui leur convient le mieux.
+                            </p>
+
+                        </div>
+                        <div class="history__item">
+                            <img src="img/photo/HistoryPhoto3.png" alt="Image3" class="history-img">
+                            <p class="history-text text-back">
+                                Notre barbershop est également connu pour son ambiance conviviale et détendue. Nous nous
+                                efforçons de créer une atmosphère chaleureuse où nos clients se sentent à l'aise et
+                                détendus. Nous offrons des boissons fraîches et des magazines récents pour aider nos
+                                clients
+                                à se détendre et à profiter de leur expérience de coiffure...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="history__inner-text-end">
+                        <p class="text-back">La nuit tombait lentement sur la ville, tandis que je m'approchais du
+                            barbier.
+                            Le
+                            panneau au néon
+                            clignotant sur la façade du bâtiment semblait presque éteint, mais l'entrée était toujours
+                            ouverte.
+                            Une voix rauque me salua alors que j'entrais, me proposant de prendre place sur l'un des
+                            fauteuils
+                            en cuir noir.
+
+                            Le barbier en question, un homme d'âge moyen portant une chemise à carreaux et une veste de
+                            cuir
+                            usée, prit place derrière son comptoir en bois sombre. Il sortit alors ses outils, des
+                            ciseaux
+                            et
+                            des rasoirs impeccables, avec lesquels il allait bientôt sculpter ma barbe.
+
+                            L'ambiance était sombre et feutrée, avec une touche de nostalgie pour les temps passés. Des
+                            photos
+                            en noir et blanc d'hommes barbus ornaient les murs, tandis que la musique de jazz se faisait
+                            entendre en sourdine. Le parfum de l'huile de barbe flottait dans l'air, créant une
+                            atmosphère
+                            unique et indescriptible.
+
+                            Le barbier me parlait tout en travaillant, me racontant des histoires de la ville et de ses
+                            habitants. Les ciseaux claquaient régulièrement, alors qu'il coupait et taillait ma barbe
+                            avec
+                            une
+                            dextérité impressionnante. Sa technique était impeccable, et je savais que je sortirais de
+                            ce
+                            barbier avec une barbe impeccablement taillée.
+
+                            En fin de compte, le résultat était incroyable. Ma barbe était impeccablement taillée, mes
+                            favoris
+                            parfaitement alignés. Le barbier me remit un petit pot de sa propre huile de barbe, avant de
+                            me
+                            saluer avec un sourire satisfait.
+
+                            En sortant, je me sentais comme un homme nouveau. Mon passage chez le barbier était plus
+                            qu'une
+                            simple coupe de barbe - c'était une expérience unique et mémorable. Et je savais que je
+                            reviendrais
+                            bientôt dans ce barbier sur le bord de la ville, pour une autre coupe impeccable et une
+                            conversation
+                            chaleureuse</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- addition  -->
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <form class="registr__form">
+                    <label class="form-name" for="name">Votre nom:</label>
+                    <input type="text" class="name" name="name" required>
+
+                    <label class="form-phone" for="phone">Téléphone:</label>
+                    <input type="tel" class="client-phone" name="phone" required>
+
+                    <p>Qu'aimeriez-vous nous dire de plus?</p>
+                    <label>
+                        <textarea class="message" name="message"></textarea>
+                    </label>
+
+                    <input class="send-form" type="submit" value="Inscrire">
+                </form>
+
+            </div>
+        </div>
+
+        <div class="scroll__to-top">
+            <a href="#header"><img src="img/icon/UP.svg" alt="arrow"></a>
+        </div>
+        <!-- ///////////////////////////////////////////////// -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+
+                    <ul class="social__media">
+                        <li class="social__media-item"><a class="social__media-link" href="#"><img class="instagram"
+                                    src="img/icon/social/instagram_icon.svg" alt="instagram"></a>
+                        </li>
+
+                        <li class=" social__media-item"><a class="social__media-link facebook" href="#"><img
+                                    src="img/icon/social/facebook_icon.svg" alt="facebook"></a></li>
+
+                        <li class="social__media-item"><a class="social__media-link pinterest" href="#"><img
+                                    src="img/icon/social/pinterest_icon.svg" alt="pinterest"></a></li>
+
+                        <li class="social__media-item"><a class="social__media-link twitter" href="#"><img
+                                    src="img/icon/social/twitter.svg" alt="twitter"></a>
+                        </li>
+                    </ul>
+
+                    <nav class="menu">
+                        <ul class="footer__menu">
+                            <li class="menu-item"><a href="#" class="menu-item-link">Barbier Élégant</a></li>
+
+                            <a href="#header" class="logo"><img class="footer-logo" src="img/icon/MainLogo.svg"
+                                    alt="logo"></a>
+
+                            <li class="menu-item"><a class="menu-item-link" href="tel:33612345678">+33 6 12 34 56
+                                    78</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </footer>
+    </div>
+</body>
+
+</html>
